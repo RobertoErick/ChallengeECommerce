@@ -142,3 +142,16 @@ nav {
     background: blue;
     border: none;
 }
+/*Seccion de Contacto*/
+
+/*Seccion pie de pagina*/
+.piePagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.piePagina p{
+    margin-bottom: 0;
+}

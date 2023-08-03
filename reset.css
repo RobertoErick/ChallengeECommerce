@@ -46,3 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Estilos generales para los enlaces */
+a {
+	color: blue; /* Cambia el color del texto del enlace a azul */
+	text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+}
+  
+  /* Estilo al pasar el ratón por encima del enlace */
+a:hover {
+	text-decoration: underline; /* Añade un subrayado al pasar el ratón por encima */
+}
+  
+  /* Estilo para enlaces visitados */
+a:visited {
+	color: none; /* Cambia el color del texto del enlace visitado a morado */
+}
+  

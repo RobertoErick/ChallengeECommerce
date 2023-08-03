@@ -24,9 +24,15 @@ nav {
     padding: 2%;
 }
 
+.IconoBusqueda{
+    position: absolute;
+    margin: 0 0 0 47%;
+}
+
 .iniciarSesion__btn{
     width: 15%;
     height: 60%;
+    font-size: 17px;
     border-color: blue;
     color: blue;
     background: transparent;
@@ -169,12 +175,25 @@ nav {
 }
 
 .piePagina{
-    margin: 2% 0 2% 0;
+    margin: 4% 0 4% 0;
 }
 /*Seccion pie de pagina*/
 
 /*Seccion responsiva*/
 @media (min-width: 767px) and (max-width:1023px){
+    /*Seccion de navegacion*/
+    .IconoBusqueda{
+        position: absolute;
+        margin: 0 0 0 46%;
+    }
+    /*Seccion de navegacion*/
+
+    /*Seccion Banner*/
+    .Boton__banner{
+        width: 15%;
+    }
+    /*Seccion Banner*/
+
     /*Seccion de Productos*/
     .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
         display: none;
@@ -212,9 +231,32 @@ nav {
     .Label__nombre{
         margin: 3%;
     }
+    /*Seccion de Contacto*/
 }
 
 @media (max-width: 767px){
+    /*Seccion de navegacion*/
+    .buscador{
+        display: none;
+    }
+
+    .IconoBusqueda{
+        position: absolute;
+        right: 10%;
+    }
+
+    .iniciarSesion__btn{
+        margin-right:30%;
+        width: 35%;
+    }
+    /*Seccion de navegacion*/
+
+    /*Seccion Banner*/
+    .Boton__banner{
+        width: 15%;
+    }
+    /*Seccion Banner*/
+
     /*Seccion de Productos*/
     .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
         display: none;
@@ -227,5 +269,53 @@ nav {
     .diversos__productos__caja:nth-child(5), .diversos__productos__caja:nth-child(6){
         display: none;
     }
+
+    .Catalogo__productos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4%;
+    }
+    
+    .starWars__productos__caja{
+        width: 48%;
+    }
+
+    .consolas__productos__caja{
+        width: 48%;
+    }
+
+    .diversos__productos__caja{
+        width: 48%;
+    }
     /*Seccion de Productos*/
+
+    /*Seccion de Contacto*/
+    .contacto{
+        display: block;
+        text-align: center;
+    }
+    .logo__contacto{
+        margin: 3% 0 0 0;
+    }
+    .acercaDe{
+        margin-top: 1%;
+    }
+    .acercaDe p{
+        margin: 5% 0 5% 0 ;
+        font-size: 25px;
+    }
+    .logo__contacto img{
+        height: 65px;
+    }
+    .inputContacto{
+        width: 100%;
+    }
+    .inputContacto h3{
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    .Label__nombre{
+        padding: 3% 0 0 4%;
+    }
+
 }

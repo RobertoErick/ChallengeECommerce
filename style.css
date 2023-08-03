@@ -29,8 +29,64 @@ nav {
     height: 60%;
     border-color: blue;
     color: blue;
-
+    background: transparent;
 }
 /*Seccion de navegacion*/
 
 /*Seccion de banner*/
+.banner{
+    height: 300px;
+    width: 100%;
+}
+
+.imgbanner{
+    width: 100%;
+    height: 100%;
+}
+
+.Titulo__banner{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+    font-size: 50px;
+}
+
+.Subitulo__banner{
+    position: absolute;
+    color: white;
+    top: 31%;
+    left: 10%;
+}
+
+.Boton__banner{
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    height: 6%;
+    width: 9%;
+    color: white;
+    background: blue;
+    border: none;
+}
+/*Seccion de Banner*/
+
+/*Seccion de Productos*/
+.Titulo__catalogo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10% 0% 10%;
+}
+
+.Catalogo__productos{
+    display: flex;
+    gap: 2%;
+    margin: 0 10% 0 10%;
+}
+
+.imagen__producto{
+    width: 100%;
+    height: 60%;
+}

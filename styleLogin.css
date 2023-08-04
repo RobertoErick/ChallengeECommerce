@@ -39,77 +39,55 @@ nav {
 }
 /*Seccion de navegacion*/
 
-/*Seccion de banner*/
-.banner{
-    height: 300px;
-    width: 100%;
-}
-
-.imgbanner{
-    width: 100%;
-    height: 100%;
-}
-
-.Titulo__banner{
-    position: absolute;
-    color: white;
-    top: 20%;
-    left: 10%;
-    font-size: 50px;
-}
-
-.Subitulo__banner{
-    position: absolute;
-    color: white;
-    top: 31%;
-    left: 10%;
-}
-
-.Boton__banner{
-    position: absolute;
-    top: 39%;
-    left: 10%;
-    height: 6%;
-    width: 9%;
-    color: white;
-    background: blue;
-    border: none;
-}
-/*Seccion de Banner*/
-
-/*Seccion de Productos*/
-.Titulo__catalogo{
+/*Seccion de iniciar sesion*/
+.Seccion__iniciarSesion{
+    height: 450px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2% 10% 0% 10%;
+    flex-direction: column;
+    gap: 8%;
+    background: var(--preto-05, #F5F5F5);
+    padding: 3% 0 3% 0;
 }
 
-.Titulo__catalogo h2{
+.Seccion__iniciarSesion h2{
+    color: var(--preto-100, #464646);
     font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 1%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.Catalogo__productos{
-    display: flex;
-    gap: 2%;
-    margin: 0 10% 0 10%;
+.Seccion__iniciarSesion input{
+    height: 10%;
+    width: 400px;
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    font-size: 18px;
 }
 
-.imagen__producto{
-    width: 100%;
-    height: 70%;
+.Seccion__iniciarSesion ::placeholder{
+    color: #A2A2A2;
 }
-/*Seccion de Productos*/
+
+.Seccion__iniciarSesion button{
+    height: 15%;
+    width: 28%;
+    padding: 1%;
+    color: white;
+    background: var(--azul-100, #2A7AE4);
+    border: none;
+    font-size: 17px;
+}
+/*Seccion de iniciar sesion*/
 
 /*Seccion de Contacto*/
 .contacto{
     display: flex;
     justify-content: space-between;
-    margin: 3% 0 0 0;
-    padding: 1% 10% 3% 10%;
+    padding: 2% 10% 3% 10%;
     background: azure;
     align-items: center;
 }
@@ -188,26 +166,6 @@ nav {
     }
     /*Seccion de navegacion*/
 
-    /*Seccion Banner*/
-    .Boton__banner{
-        width: 15%;
-    }
-    /*Seccion Banner*/
-
-    /*Seccion de Productos*/
-    .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .consolas__productos__caja:nth-child(5), .consolas__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .diversos__productos__caja:nth-child(5), .diversos__productos__caja:nth-child(6){
-        display: none;
-    }
-    /*Seccion de Productos*/
-
     /*Seccion de Contacto*/
     .contacto{
         display: block;
@@ -250,44 +208,6 @@ nav {
         width: 35%;
     }
     /*Seccion de navegacion*/
-
-    /*Seccion Banner*/
-    .Boton__banner{
-        width: 15%;
-    }
-    /*Seccion Banner*/
-
-    /*Seccion de Productos*/
-    .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .consolas__productos__caja:nth-child(5), .consolas__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .diversos__productos__caja:nth-child(5), .diversos__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .Catalogo__productos{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4%;
-    }
-    
-    .starWars__productos__caja{
-        width: 48%;
-    }
-
-    .consolas__productos__caja{
-        width: 48%;
-    }
-
-    .diversos__productos__caja{
-        width: 48%;
-    }
-    /*Seccion de Productos*/
 
     /*Seccion de Contacto*/
     .contacto{

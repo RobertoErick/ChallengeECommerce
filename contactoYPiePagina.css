@@ -1,81 +1,3 @@
-/*Seccion de navegacion*/
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 80px;
-}
-
-.navegacion{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    gap: 5%;
-    padding-right: 32%;
-}
-
-.buscador{
-    border-radius: 50px;
-    width: 100%;
-    height: 50%;
-    background-color: lightgray;
-    border: none;
-    padding: 2%;
-}
-
-.IconoBusqueda{
-    position: absolute;
-    margin: 0 0 0 47%;
-}
-
-/*Seccion de navegacion*/
-
-/*Seccion de iniciar sesion*/
-.Seccion__iniciarSesion{
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 8%;
-    background: var(--preto-05, #F5F5F5);
-    padding: 3% 0 3% 0;
-}
-
-.Seccion__iniciarSesion h2{
-    color: var(--preto-100, #464646);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.Seccion__iniciarSesion input{
-    height: 10%;
-    width: 400px;
-    padding: 1%;
-    border: none;
-    border-bottom: 2px solid darkgray;
-    font-size: 18px;
-}
-
-.Seccion__iniciarSesion ::placeholder{
-    color: #A2A2A2;
-}
-
-.Seccion__iniciarSesion button{
-    height: 15%;
-    width: 28%;
-    padding: 1%;
-    color: white;
-    background: var(--azul-100, #2A7AE4);
-    border: none;
-    font-size: 17px;
-}
-/*Seccion de iniciar sesion*/
-
 /*Seccion de Contacto*/
 .contacto{
     display: flex;
@@ -152,13 +74,6 @@ nav {
 
 /*Seccion responsiva*/
 @media (min-width: 767px) and (max-width:1023px){
-    /*Seccion de navegacion*/
-    .IconoBusqueda{
-        position: absolute;
-        margin: 0 0 0 46%;
-    }
-    /*Seccion de navegacion*/
-
     /*Seccion de Contacto*/
     .contacto{
         display: block;
@@ -186,22 +101,6 @@ nav {
 }
 
 @media (max-width: 767px){
-    /*Seccion de navegacion*/
-    .buscador{
-        display: none;
-    }
-
-    .IconoBusqueda{
-        position: absolute;
-        right: 10%;
-    }
-
-    .iniciarSesion__btn{
-        margin-right:30%;
-        width: 35%;
-    }
-    /*Seccion de navegacion*/
-
     /*Seccion de Contacto*/
     .contacto{
         display: block;

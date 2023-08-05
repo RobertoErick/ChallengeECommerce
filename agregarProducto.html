@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="navegacion.css">
+    <link rel="stylesheet" href="contactoYPiePagina.css">
+    <link rel="stylesheet" href="styleAgregarProducto.css">
+    <title>e-Commerce Agregar Producto</title>
+</head>
+<body>
+    <nav>
+        <div class="navegacion">
+            <img src="img/Logo.png" alt="Logo Principal" onclick="window.location.href = 'index.html'">
+            <input class="buscador" placeholder="¿Que deseas buscar?">
+            <img src="img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
+        </div>
+    </nav>
+    <div class="Seccion__agregar_productos">
+        <h2>Agregar nuevo producto</h2>
+        <div class="Seccion__Input">
+            <label for="url" class="label__agregar_producto">URL de imagen</label>
+            <input type="text" id="url" name="url">
+        </div>
+        <div class="Seccion__Input">
+            <label for="categoria" class="label__agregar_producto">Categoria</label>
+            <input type="text" id="categoria" name="categoria">
+        </div>
+        <div class="Seccion__Input">
+            <label for="nombre" class="label__agregar_producto">Nombre del producto</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="Seccion__Input">
+            <label for="precio" class="label__agregar_producto">Precio del producto</label>
+            <input type="text" id="precio" name="precio">
+        </div>
+        <div class="Seccion__Input">
+            <input type="text" placeholder="Descripcion del producto">
+        </div>
+        <button>Agregar producto</button>
+    </div>
+    <div class="contacto">
+        <div class="logo__contacto">
+            <img src="img/Logo.png" alt="Logo de la pagina contacto">
+        </div>
+        <div class="acercaDe">
+            <p>Quienes Somos</p>
+            <p>Politica de privacidad</p>
+            <p>Programade fidelidad</p>
+            <p>Nuestras tiendas</p>
+            <p>Quiero ser franquiciado</p>
+            <p>Anunciar aqui</p>
+        </div>
+        <div class="inputContacto">
+            <h3>Habla con nosotros</h3>
+            <div class="Seccion__nombre">
+                <label for="text" class="Label__nombre">Nombre</label>
+                <input type="text" class="input__nombre">
+            </div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje" class="mensaje__contacto"></textarea>
+            <button class="Contacto__btn">Enviar mensaje</button>
+        </div>   
+    </div>
+    <div class="piePagina">
+        <p>Desarrollado por Roberto Erick</p>
+        <p>2023</p>
+    </div>
+    
+</body>
+</html>

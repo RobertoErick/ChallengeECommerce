@@ -1,0 +1,61 @@
+/*Seccion de producto individual*/
+.productoIndividual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10% 5% 10%;
+}
+
+.productoIndividual img{
+    height: 500px;    
+}
+
+.contenidoIndividual{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;    
+}
+
+.contenidoIndividual h2{
+    margin: 2% 0 2% 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.contenidoIndividual p{
+    margin: 2% 0 2% 0;
+    font-size: 20px;
+}
+
+/*Seccion de producto individual*/
+/*Seccion de productos similares*/
+.Titulo__productosSimilares{
+    margin: 1% 1% 1% 10%;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.Catalogo__productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    gap: 2%;
+}
+
+.productos__caja{
+    width: 182px;
+    height: 250px;
+    padding-bottom: 1%;
+    position: relative;
+}
+
+.imagen__producto{
+    width: 100%;
+    height: 70%;
+}
+/*Seccion de productos similares*/

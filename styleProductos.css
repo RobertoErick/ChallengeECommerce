@@ -1,3 +1,58 @@
 .todosLosProductos{
-    height: 700px;
+    height: auto;
+    padding: 50px 0 50px 0;
 }
+
+.Encabezado__catalogo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10% 2% 10%;
+}
+
+.Encabezado__catalogo h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.Catalogo__productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    gap: 2%;
+}
+
+.agregar__producto{
+    height: 50px;
+    width: 180px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    background: var(--azul-100, #2A7AE4);
+}
+.productos__caja{
+    width: 182px;
+    height: 250px;
+    padding-bottom: 1%;
+    position: relative;
+}
+
+.imagen__producto{
+    width: 100%;
+    height: 70%;
+}
+
+.iconoBasura{
+    position: absolute;
+    top: 3%;
+    left: 60%;
+}
+
+.iconoEditar{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+}
+/*Seccion de Productos*/

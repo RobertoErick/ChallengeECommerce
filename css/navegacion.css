@@ -16,6 +16,10 @@ nav {
     padding-right: 32%;
 }
 
+.navegacion .logo{
+    cursor: pointer;
+}
+
 .buscador{
     border-radius: 50px;
     width: 100%;

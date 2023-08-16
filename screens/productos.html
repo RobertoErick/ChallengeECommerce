@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/navegacion.css">
+    <link rel="stylesheet" href="../css/contactoYPiePagina.css">
+    <link rel="stylesheet" href="../css/styleProductos.css">
+    <title>e-Commerce Productos</title>
+</head>
+<body>
+    <nav>
+        <div class="navegacion">
+            <img src="../img/Logo.png" alt="Logo Principal" onclick="window.location.href = 'index.html'">
+            <input class="buscador" placeholder="¿Que deseas buscar?">
+            <img src="../img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
+        </div>
+    </nav>
+    <div class="todosLosProductos">
+        <div class="Encabezado__catalogo">
+            <h2 class="titulo">Todos los productos</h2>
+            <a href="/screens/agregarProducto.html">
+                <button class="agregar__producto" >Agregar producto</button>
+            </a>
+        </div>
+        <div class="Catalogo__productos">
+            <!-- Carga de productos de json server -->
+        </div>
+    </div>
+    </div>
+    <div class="contacto">
+        <div class="logo__contacto">
+            <img src="../img/Logo.png" alt="Logo de la pagina contacto">
+        </div>
+        <div class="acercaDe">
+            <p>Quienes Somos</p>
+            <p>Politica de privacidad</p>
+            <p>Programade fidelidad</p>
+            <p>Nuestras tiendas</p>
+            <p>Quiero ser franquiciado</p>
+            <p>Anunciar aqui</p>
+        </div>
+        <div class="inputContacto">
+            <h3>Habla con nosotros</h3>
+            <div class="Seccion__nombre">
+                <label for="text" class="Label__nombre">Nombre</label>
+                <input type="text" class="input__nombre">
+            </div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje" class="mensaje__contacto"></textarea>
+            <button class="Contacto__btn">Enviar mensaje</button>
+        </div>   
+    </div>
+    <div class="piePagina">
+        <p>Desarrollado por Roberto Erick</p>
+        <p>2023</p>
+    </div>
+    <script type="module" src="../controllers/client.controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "starWars": [
+    {
+      "imagen": "/img/almohada.jpg",
+      "categoria": "Star Wars",
+      "nombre": "Almohada",
+      "precio": "$6.00",
+      "descripcion": "Articulo a la venta",
+      "id": 1
+    },
+    {
+      "imagen": "/img/almohada.jpg",
+      "categoria": "Star Wars",
+      "nombre": "almohada",
+      "precio": "6.00",
+      "descripcion": "asdasd",
+      "id": 2
+    }
+  ]
+}

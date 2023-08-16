@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="navegacion.css">
-    <link rel="stylesheet" href="contactoYPiePagina.css">
-    <link rel="stylesheet" href="styleAgregarProducto.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/navegacion.css">
+    <link rel="stylesheet" href="../css/contactoYPiePagina.css">
+    <link rel="stylesheet" href="../css/styleAgregarProducto.css">
     <title>e-Commerce Agregar Producto</title>
 </head>
 <body>
     <nav>
         <div class="navegacion">
-            <img src="img/Logo.png" alt="Logo Principal" onclick="window.location.href = 'index.html'">
+            <img src="../img/Logo.png" alt="Logo Principal" onclick="window.location.href = 'index.html'">
             <input class="buscador" placeholder="¿Que deseas buscar?">
-            <img src="img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
+            <img src="../img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
         </div>
     </nav>
-    <div class="Seccion__agregar_productos">
+    <form class="Seccion__agregar_productos" data-form>
         <h2>Agregar nuevo producto</h2>
         <div class="Seccion__Input">
-            <label for="url" class="label__agregar_producto">URL de imagen</label>
-            <input type="text" id="url" name="url">
+            <label for="url" class="label__agregar_producto" >URL de imagen</label>
+            <input type="text" id="url" name="url" data-imagen required>
         </div>
         <div class="Seccion__Input">
-            <label for="categoria" class="label__agregar_producto">Categoria</label>
-            <input type="text" id="categoria" name="categoria">
+            <label for="categoria" class="label__agregar_producto" >Categoria</label>
+            <input type="text" id="categoria" name="categoria" data-categoria required>
         </div>
         <div class="Seccion__Input">
-            <label for="nombre" class="label__agregar_producto">Nombre del producto</label>
-            <input type="text" id="nombre" name="nombre">
+            <label for="nombre" class="label__agregar_producto" >Nombre del producto</label>
+            <input type="text" id="nombre" name="nombre" data-nombre required>
         </div>
         <div class="Seccion__Input">
-            <label for="precio" class="label__agregar_producto">Precio del producto</label>
-            <input type="text" id="precio" name="precio">
+            <label for="precio" class="label__agregar_producto" >Precio del producto</label>
+            <input type="text" id="precio" name="precio" data-precio required>
         </div>
         <div class="Seccion__textarea">
-            <textarea name="" id="" cols="54" rows="5" placeholder="Descripcion del producto"></textarea>
+            <textarea name="" id="" cols="54" rows="5" placeholder="Descripcion del producto" data-descripcion required></textarea>
         </div>
-            <button>Agregar producto</button>
-    </div>
+            <button type="submit">Agregar producto</button>
+    </form>
     <div class="contacto">
         <div class="logo__contacto">
-            <img src="img/Logo.png" alt="Logo de la pagina contacto">
+            <img src="../img/Logo.png" alt="Logo de la pagina contacto">
         </div>
         <div class="acercaDe">
             <p>Quienes Somos</p>
@@ -68,4 +68,5 @@
     </div>
     
 </body>
+<script type="module" src="../controllers/registro.controller.js"></script>
 </html>

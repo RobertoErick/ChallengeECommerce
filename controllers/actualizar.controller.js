@@ -1,14 +1,14 @@
 import { clientServices } from "../service/client-service.js";
 
 const formulario = document.querySelector("[data-form]");
-
+console.log("atraccion de datos exitoso");
 
 const obtenerInformacion = async () => {
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
 
     if (id === null) {
-        window.location.href = "../screens/index.html";
+         window.location.href = "../screens/error.html";
     }
 
     const imagen = document.querySelector("[data-imagen]");
@@ -25,6 +25,7 @@ const obtenerInformacion = async () => {
             nombre.value = starWars.nombre;
             precio.value = starWars.precio;
             descripcion.value = starWars.descripcion;
+
         } else {
             throw new Error();
         }
@@ -35,7 +36,7 @@ const obtenerInformacion = async () => {
 
 obtenerInformacion(); 
 
-formulario-addEventListener("submit", (evento) => {
+formulario.addEventListener("submit", (evento) => {
     evento.preventDefault();
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
@@ -45,7 +46,7 @@ formulario-addEventListener("submit", (evento) => {
     const nombre = document.querySelector("[data-nombre]").value;
     const precio = document.querySelector("[data-precio]").value;
     const descripcion = document.querySelector("[data-descripcion]").value;
-    clientServices.actualizarCliente(imagen, categoria,nombre, precio, descripcion).then(() => {
+    clientServices.actualizarCliente(imagen, categoria,nombre, precio, descripcion, id).then(() => {
         window.location.href = "/screens/productos.html";
     });
 });

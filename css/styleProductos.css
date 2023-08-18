@@ -31,6 +31,7 @@
     border: none;
     font-size: 17px;
     background: var(--azul-100, #2A7AE4);
+    cursor: pointer;
 }
 .productos__caja{
     width: 182px;
@@ -48,6 +49,7 @@
     position: absolute;
     top: 3%;
     left: 60%;
+    cursor: pointer;
 }
 
 .iconoEditar{

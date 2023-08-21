@@ -22,6 +22,10 @@
     margin: 1%;
 }
 
+.input::placeholder{
+    visibility: hidden;
+}
+
 .input-label {
     position: absolute;
     left: 4%;

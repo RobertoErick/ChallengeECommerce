@@ -17,12 +17,12 @@
             <img src="../img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
         </div>
     </nav>
-    <div class="Seccion__iniciarSesion">
+    <form class="Seccion__iniciarSesion" data-form>
         <h2>Iniciar Sesión</h2>
-        <input type="text" placeholder="Escriba su correo electronico">
-        <input type="text" placeholder="Escriba su contraseña">
-        <button>Entrar</button>
-    </div>
+        <input type="email" placeholder="Escriba su correo electronico" id="correo">
+        <input type="password" placeholder="Escriba su contraseña" id="contraseña">
+        <button type="submit">Entrar</button>
+    </form>
     <div class="contacto">
         <div class="logo__contacto">
             <img src="../img/Logo.png" alt="Logo de la pagina contacto">
@@ -49,5 +49,6 @@
         <p>Desarrollado por Roberto Erick</p>
         <p>2023</p>
     </div>
+    <script type="module" src="../controllers/iniciar_sesion.js"></script>
 </body>
 </html>

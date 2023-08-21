@@ -1,20 +1,179 @@
 {
-  "starWars": [
+  "productos": [
     {
-      "imagen": "/img/almohada.jpg",
-      "categoria": "Star Wars",
-      "nombre": "almohada",
-      "precio": "10",
-      "descripcion": "asdasd",
-      "id": 1
+      "imagen": "/img/ps5.jpg",
+      "categoria": "consolas",
+      "nombre": "Consola playstation 5",
+      "precio": "5,000.00",
+      "descripcion": "Consola de videojuegos",
+      "id": 5
     },
     {
-      "imagen": "/img/almohada.jpg",
-      "categoria": "Star Wars",
-      "nombre": "almohada",
-      "precio": "6.00",
-      "descripcion": "wabi wabo",
-      "id": 3
+      "imagen": "\\img\\pikachu mamado.jpg",
+      "categoria": "diversos",
+      "nombre": "figura de coleccion",
+      "precio": "500.00",
+      "descripcion": "es un simple pikachu mamado lleno de testosterona",
+      "id": 6
+    },
+    {
+      "imagen": "https://uvejuegos.com/img/caratulas/56710/BF1-One-B.jpg",
+      "categoria": "videojuegos",
+      "nombre": "Battlefield 4 pvtos",
+      "precio": "500.00",
+      "descripcion": "Videojuego de accion de displaros",
+      "id": 8
+    },
+    {
+      "imagen": "https://i.blogs.es/b9cb8d/portadagodofwar2/1366_2000.jpg",
+      "categoria": "videojuegos",
+      "nombre": "God Of War ",
+      "precio": "500.00",
+      "descripcion": "Videojuego para PlayStation 2",
+      "id": 9
+    },
+    {
+      "imagen": "https://areajugones.sport.es/wp-content/uploads/2018/03/god-of-war-day-one-edition.jpg",
+      "categoria": "videojuegos",
+      "nombre": "God Of War ",
+      "precio": "1,000.00",
+      "descripcion": "Videojuego para PlayStation 4",
+      "id": 10
+    },
+    {
+      "imagen": "https://elcomercio.pe/resizer/wOLQD50ds0wQUm58CDhlIqQiHNg=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/KYIGZ47NUNAPDLCIAQPQIUDWS4.png",
+      "categoria": "videojuegos",
+      "nombre": "GOD Of War: Ragnarok",
+      "precio": "1,200.00",
+      "descripcion": "Videojuego del legendario kratos en su travesia en la mitologia nordica",
+      "id": 11
+    },
+    {
+      "imagen": "https://media.vandal.net/m/14957/20121216111142_1.jpg",
+      "categoria": "videojuegos",
+      "nombre": "Call of Duty: Black Ops 2",
+      "precio": "500.00",
+      "descripcion": "Videojuego de guerra ambientado en conflictos de Estados Unidos con diferentes visitas en mapas y modo zombies",
+      "id": 12
+    },
+    {
+      "imagen": "https://cdn.atomix.vg/wp-content/uploads/2018/09/Hands-On-Red-Dead-Redemption-II.png",
+      "categoria": "videojuegos",
+      "nombre": "Red Dead Redemption 2",
+      "precio": "1,200.00",
+      "descripcion": "Videojuego ambientado en 1903, la epoca de transicion entre el viejo oeste y la civilizacion no tan civilizada, donde un vaquero junto con su familia se las arregla para sobrevivir en este cambio",
+      "id": 13
+    },
+    {
+      "imagen": "https://cdn1.epicgames.com/b156c3365a5b4cb9a01a5e1108b4e3f4/offer/EGS_STARWARSBattlefrontIICelebrationEdition_DICE_S2-1200x1600-11d040719a8457bbf36cabbe89b200db.jpg",
+      "categoria": "videojuegos",
+      "nombre": "Star Wars Battlefront 2",
+      "precio": "300.00",
+      "descripcion": "Videojuego ambientado en la guerra de las galaxias donde tu mision es llevar a tu batallon a la victoria siendo parte de la republica o la rebelion",
+      "id": 14
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/61-PblYntsL.jpg",
+      "categoria": "consolas",
+      "nombre": "Nintendo Switch",
+      "precio": "10,000.00",
+      "descripcion": "Consola de la gran N, Nintendo se ah enfocado en la portabilidad y gran diseño para poder jugar en cualquier lugar para después pasarlo a pantalla grande en tu sala",
+      "id": 15
+    },
+    {
+      "imagen": "https://doto.vtexassets.com/arquivos/ids/270399/valve-steam-deck-consola-negro-dotomexico-vista-dinamica.jpg?v=638126887960900000",
+      "categoria": "consolas",
+      "nombre": "Steam Deck",
+      "precio": "10,000.00",
+      "descripcion": "Consola portatil desarrollada por Steam, dedicada a transportar los juegos que tengas en tu PC a un modo mas portatil, muchos diciendo que esta seria la PC 2",
+      "id": 16
+    },
+    {
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/82/Microsoft-Xbox-One-S-Console-wController-L.jpg",
+      "categoria": "consolas",
+      "nombre": "Xbox One S",
+      "precio": "8,000.00",
+      "descripcion": "Microsoft se enfoco en el desarrollo de sus productos hasta el punto de crear un balance entre el precio y su calidad, llegando en esta consola para todos los hogares ",
+      "id": 17
+    },
+    {
+      "imagen": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4mRni?ver=8361",
+      "categoria": "consolas",
+      "nombre": "Xbox Series X",
+      "precio": "15,000.00",
+      "descripcion": "Maxima cuspide de microsoft para jugar videojuegos en 4K y 60fps",
+      "id": 18
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/41sN+-1hRsL.jpg",
+      "categoria": "consolas",
+      "nombre": "PlayStation 4",
+      "precio": "5,000.00",
+      "descripcion": "entretenimiento de alta calidad por parte de Sony, los mas grandes exclusivos han pasado por aqui y han dejado una gran huella en el corazon de muchos gamers",
+      "id": 19
+    },
+    {
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wii_U_Console_and_Gamepad.png/800px-Wii_U_Console_and_Gamepad.png",
+      "categoria": "consolas",
+      "nombre": "WII U",
+      "precio": "3,000.00",
+      "descripcion": "Nintendo se ah enfocado en ofrecer la mayor diversion a todo el publico que quiera comenzar a jugar videojuegos, su control implementa la función de una nueva manera de jugar para todas las personas ",
+      "id": 20
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/71Lqqz+nToS.jpg",
+      "categoria": "diversos",
+      "nombre": "Amung us",
+      "precio": "200.00",
+      "descripcion": "muñeco de el famoso videojuego \"Among us\" ",
+      "id": 21
+    },
+    {
+      "imagen": "https://www.moshimoshi-nippon.jp/wp/wp-content/uploads/2019/01/4a93bf14ca40fcb196bace44527b22cd.jpg",
+      "categoria": "diversos",
+      "nombre": "Taza de kirby",
+      "precio": "300.00",
+      "descripcion": "taza adorable del pequeño personaje de kirby",
+      "id": 22
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/71vLOiPjrYL._AC_SX679_.jpg",
+      "categoria": "diversos",
+      "nombre": "Casco de Master Chief",
+      "precio": "800.00",
+      "descripcion": "Casco de el legendario Jefe maestro, listo para la batalla con su increible diseño sacado de Halo infinite",
+      "id": 23
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51bfje7BkfL._AC_SX466_.jpg",
+      "categoria": "diversos",
+      "nombre": "Traje de spiderman",
+      "precio": "2,000.00",
+      "descripcion": "Traje del alguacil de New York, usado en el videojuego de Spiderman para PlayStation 4",
+      "id": 24
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51sCmci78XL._AC_SX679_.jpg",
+      "categoria": "diversos",
+      "nombre": "Traje de alien",
+      "precio": "1,000.00",
+      "descripcion": "Los marcianos llegaron ya y llegaron secuestrando personas cha cha cha, con este traje seras el alma de la fiesta, especialmente en las bodas",
+      "id": 25
+    },
+    {
+      "imagen": "https://yt3.ggpht.com/MJdVpdVsiEx1DYcDW4LilMHD9T66nA2BNgo_Lb0xwqfsXJnUggxPmg-YKEMBp3MJA6tOf04fSiPz=s1024-nd-v1",
+      "categoria": "diversos",
+      "nombre": "Peluche de Freddy de Five Night´s and Freddys",
+      "precio": "200.00",
+      "descripcion": "De la famosa saga de videojuegos, alfredo viene a darte un abrazo con esos ojitos pispiretos directo a que lo compres, no lo pienses mas susperstar",
+      "id": 26
+    }
+  ],
+  "usuarios": [
+    {
+      "correo": "usuario1@example.com",
+      "password": "contraseña1",
+      "id": 1
     }
   ]
 }

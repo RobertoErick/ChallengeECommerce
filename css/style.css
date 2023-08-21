@@ -15,6 +15,10 @@ nav {
     gap: 5%;
 }
 
+.Logo{
+    cursor: pointer;
+}
+
 .buscador{
     border-radius: 50px;
     width: 100%;
@@ -27,15 +31,17 @@ nav {
 .IconoBusqueda{
     position: absolute;
     margin: 0 0 0 47%;
+    cursor: pointer;
 }
 
 .iniciarSesion__btn{
-    width: 15%;
-    height: 60%;
+    width: 210px;
+    height: 40px;
     font-size: 17px;
     border-color: blue;
     color: blue;
     background: transparent;
+    cursor: pointer;
 }
 /*Seccion de navegacion*/
 
@@ -96,12 +102,38 @@ nav {
     display: flex;
     gap: 2%;
     margin: 0 10% 0 10%;
+    max-height: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .imagen__producto{
     width: 100%;
     height: 70%;
 }
+
+/* Seccion de prueba para los productos de la base de datos */
+
+.Catalogo__productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    gap: 2%;
+}
+
+.productos__caja{
+    width: 182px;
+    height: 250px;
+    padding-bottom: 1%;
+    position: relative;
+}
+
+.imagen__producto{
+    width: 100%;
+    height: 70%;
+}
+
 /*Seccion de Productos*/
 
 /*Seccion de Contacto*/
@@ -194,20 +226,6 @@ nav {
     }
     /*Seccion Banner*/
 
-    /*Seccion de Productos*/
-    .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .consolas__productos__caja:nth-child(5), .consolas__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .diversos__productos__caja:nth-child(5), .diversos__productos__caja:nth-child(6){
-        display: none;
-    }
-    /*Seccion de Productos*/
-
     /*Seccion de Contacto*/
     .contacto{
         display: block;
@@ -246,8 +264,18 @@ nav {
     }
 
     .iniciarSesion__btn{
-        margin-right:30%;
-        width: 35%;
+        width: 150px;
+    }
+
+    .navegacion{
+        width: auto;
+    }
+
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 10%;
+        gap: 5%;
     }
     /*Seccion de navegacion*/
 
@@ -258,18 +286,6 @@ nav {
     /*Seccion Banner*/
 
     /*Seccion de Productos*/
-    .starWars__productos__caja:nth-child(5), .starWars__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .consolas__productos__caja:nth-child(5), .consolas__productos__caja:nth-child(6){
-        display: none;
-    }
-
-    .diversos__productos__caja:nth-child(5), .diversos__productos__caja:nth-child(6){
-        display: none;
-    }
-
     .Catalogo__productos{
         display: flex;
         flex-wrap: wrap;

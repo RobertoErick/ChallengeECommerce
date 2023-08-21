@@ -13,7 +13,7 @@ const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion, id) 
         </a>
         <p>${nombre}</p>
         <p>${precio}</p>
-        <p>${descripcion}</p>
+        <p>#${id}</p>
     `;
     productoDiv.innerHTML = contenido;
 

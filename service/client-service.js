@@ -1,8 +1,8 @@
 const listaClientes = () => 
-    fetch("http://localhost:3000/starWars").then((respuesta) => respuesta.json());
+    fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json());
 
 const crearCliente = (imagen, categoria, nombre, precio, descripcion) => {
-    return fetch("http://localhost:3000/starWars", {
+    return fetch("http://localhost:3000/productos", {
         method: "POST",
         headers:{
             "Content-Type": "application/json",
@@ -12,19 +12,19 @@ const crearCliente = (imagen, categoria, nombre, precio, descripcion) => {
 };
 
 const eliminarCliente = (id) => {
-    return fetch(`http://localhost:3000/starWars/${id}`, {
+    return fetch(`http://localhost:3000/productos/${id}`, {
         method: "DELETE",
     })
 }
 
 const detalleCliente = (id) => {
-    return fetch(`http://localhost:3000/starWars/${id}`).then((respuesta) =>
+    return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) =>
         respuesta.json()
     );
 };
 
 const actualizarCliente = (imagen, categoria, nombre, precio, descripcion, id) => {
-    return fetch(`http://localhost:3000/starWars/${id}`, {
+    return fetch(`http://localhost:3000/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

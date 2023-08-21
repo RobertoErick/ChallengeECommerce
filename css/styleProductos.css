@@ -33,6 +33,7 @@
     background: var(--azul-100, #2A7AE4);
     cursor: pointer;
 }
+
 .productos__caja{
     width: 182px;
     height: 250px;

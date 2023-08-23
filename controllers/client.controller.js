@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-service.js";
 
-const crearNuevoProducto = (imagen, categoria, nombre, precio, descripcion, id) => {
+const crearNuevoProducto = (imagen, nombre, precio, id) => {
     const productoDiv = document.createElement("div");
 
     productoDiv.className = "productos__caja";
@@ -33,7 +33,7 @@ const contenedorProductos = document.querySelector(".Catalogo__productos");
 
 clientServices.listaClientes().then((data) => {
     data.forEach(({ imagen, categoria, nombre, precio, descripcion, id }) => {
-        const nuevoProducto = crearNuevoProducto(imagen, categoria, nombre, precio, descripcion, id);
+        const nuevoProducto = crearNuevoProducto(imagen, nombre, precio, id);
         contenedorProductos.appendChild(nuevoProducto);
     });
 }).catch((error) => alert("Ocurrió un error"));

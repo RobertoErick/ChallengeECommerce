@@ -1,3 +1,5 @@
+import { clientServices } from "../service/client-service.js";
+
 document.addEventListener('DOMContentLoaded', function() {
     const correoInput = document.getElementById('correo');
     const contraseñaInput = document.getElementById('contraseña');
@@ -12,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const contraseñaValue = contraseñaInput.value;
 
         try {
-            const response = await fetch('http://localhost:3000/usuarios');
-            const usuarios = await response.json();
+
+            const usuarios = await clientServices.listaUsuarios();
 
             const usuarioEncontrado = usuarios.find(usuario => usuario.correo === correoValue && usuario.password === contraseñaValue);
 
@@ -25,7 +27,5 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (error) {
             console.error('Error al cargar la base de datos:', error);
         }
-
-        // No se almacenan los valores en el localStorage o sessionStorage
     });
 });

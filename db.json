@@ -1,20 +1,12 @@
 {
   "productos": [
     {
-      "imagen": "/img/ps5.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/41p8FiLGtrL._AC_UF1000,1000_QL80_.jpg",
       "categoria": "consolas",
       "nombre": "Consola playstation 5",
       "precio": "5,000.00",
       "descripcion": "Consola de videojuegos",
       "id": 5
-    },
-    {
-      "imagen": "\\img\\pikachu mamado.jpg",
-      "categoria": "diversos",
-      "nombre": "figura de coleccion",
-      "precio": "500.00",
-      "descripcion": "es un simple pikachu mamado lleno de testosterona",
-      "id": 6
     },
     {
       "imagen": "https://uvejuegos.com/img/caratulas/56710/BF1-One-B.jpg",
@@ -167,6 +159,14 @@
       "precio": "200.00",
       "descripcion": "De la famosa saga de videojuegos, alfredo viene a darte un abrazo con esos ojitos pispiretos directo a que lo compres, no lo pienses mas susperstar",
       "id": 26
+    },
+    {
+      "imagen": "https://surtido.pe/wp-content/uploads/2021/02/Pokemon-Figuras-musculosas-anime-serie-figures-action-02.jpg",
+      "categoria": "diversos",
+      "nombre": "Pikachu mamado",
+      "precio": "350.00",
+      "descripcion": "Figura de coleccion de famoso pokemon",
+      "id": 27
     }
   ],
   "usuarios": [

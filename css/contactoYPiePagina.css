@@ -28,6 +28,7 @@
 }
 
 .Seccion__nombre{
+    position: relative;
     height: 50px;
     margin-bottom: 3%;
 }
@@ -39,15 +40,39 @@
     padding: 0 0 0 5%;
 }
 
+.input__nombre::placeholder{
+    visibility: hidden;
+}
+
 .Label__nombre{
-   position: absolute;
-   padding: 1% 0 0 2%;
+    position: absolute;
+    left: 4%;
+    top: 35%;
+    font-size: 18px;
+    color: #A2A2A2;
+    
+    transition: all 0.25s;
+}
+
+.input__nombre:not(:placeholder-shown) + .Label__nombre, 
+.input__nombre:focus + .Label__nombre{
+    top: 0.25rem;
+    font-size: 16px;
+    transition: all 0.25s;
 }
 
 .mensaje__contacto{
     padding: 5% 0 0 5%;
     margin-bottom: 5%;
     border: none;
+    resize: none;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mensaje__contacto::placeholder{
+    color: #A2A2A2;
+    font-size: 16px;
 }
 
 .Contacto__btn{
@@ -56,6 +81,14 @@
     color: white;
     background: blue;
     border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.Contacto__btn:hover{
+    transition: all 0.25s;
+    background: darkblue;
+    cursor: pointer;
 }
 /*Seccion de Contacto*/
 

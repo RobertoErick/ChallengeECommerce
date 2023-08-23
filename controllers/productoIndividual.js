@@ -31,7 +31,7 @@ const obtenerInformacion = async () => {
     }
 };
 
-const recomendarProductos = (imagen, categoria, nombre, precio, id) => {
+const recomendarProductos = (imagen, nombre, precio, id) => {
     const similar = `
         <div class="productos__caja">
             <img src="${imagen}" alt="${nombre}" class="imagen__producto">
@@ -48,7 +48,7 @@ obtenerInformacion().then(() => {
     .then((data) => {
         data.forEach(({ imagen, categoria, nombre, precio, id }) => {
             if (producto && producto.categoria === categoria) {
-                recomendarProductos(imagen, categoria, nombre, precio, id);
+                recomendarProductos(imagen, nombre, precio, id);
             }
         });
     })

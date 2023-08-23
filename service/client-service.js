@@ -1,3 +1,6 @@
+const listaUsuarios = () => 
+    fetch("http://localhost:3000/usuarios").then((respuesta) => respuesta.json());
+
 const listaClientes = () => 
     fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json());
 
@@ -36,6 +39,7 @@ const actualizarCliente = (imagen, categoria, nombre, precio, descripcion, id) =
 };
 
 export const clientServices = {
+    listaUsuarios,
     listaClientes,
     crearCliente, 
     eliminarCliente,

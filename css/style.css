@@ -42,6 +42,13 @@ nav {
     color: blue;
     background: transparent;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.iniciarSesion__btn:hover{
+    transition: all 0.5s;
+    background-color: blue;
+    color: white;
 }
 /*Seccion de navegacion*/
 
@@ -59,7 +66,7 @@ nav {
 .Titulo__banner{
     position: absolute;
     color: white;
-    top: 20%;
+    top: 21%;
     left: 10%;
     font-size: 50px;
 }
@@ -67,19 +74,29 @@ nav {
 .Subitulo__banner{
     position: absolute;
     color: white;
-    top: 31%;
+    top: 30%;
     left: 10%;
 }
 
 .Boton__banner{
     position: absolute;
-    top: 39%;
+    top: 35%;
     left: 10%;
-    height: 6%;
-    width: 9%;
+    height: 8%;
+    width: 13%;
     color: white;
     background: blue;
     border: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.Boton__banner:hover{
+    transition: all 0.5s;
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+    
 }
 /*Seccion de Banner*/
 
@@ -102,7 +119,7 @@ nav {
     display: flex;
     gap: 2%;
     margin: 0 10% 0 10%;
-    max-height: 260px;
+    max-height: 254px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -114,12 +131,49 @@ nav {
 }
 
 /* Seccion de prueba para los productos de la base de datos */
-
 .Catalogo__productos{
     display: flex;
     flex-wrap: wrap;
     margin: 0 10% 0 10%;
     gap: 2%;
+    max-height: 254px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Catalogo__productos2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    gap: 2%;
+    max-height: 254px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Catalogo__productos3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+    gap: 2%;
+    max-height: 254px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#verTodo{
+    cursor: pointer;
+}
+
+#verTodo2{
+    cursor: pointer;
+}
+
+#verTodo3{
+    cursor: pointer;
 }
 
 .productos__caja{
@@ -167,6 +221,7 @@ nav {
 }
 
 .Seccion__nombre{
+    position: relative;
     height: 50px;
     margin-bottom: 3%;
 }
@@ -178,15 +233,39 @@ nav {
     padding: 0 0 0 5%;
 }
 
+.input__nombre::placeholder{
+    visibility: hidden;
+}
+
 .Label__nombre{
-   position: absolute;
-   padding: 1% 0 0 2%;
+    position: absolute;
+    left: 4%;
+    top: 35%;
+    font-size: 18px;
+    color: #A2A2A2;
+    
+    transition: all 0.25s;
+}
+
+.input__nombre:not(:placeholder-shown) + .Label__nombre, 
+.input__nombre:focus + .Label__nombre{
+    top: 0.25rem;
+    font-size: 16px;
+    transition: all 0.25s;
 }
 
 .mensaje__contacto{
     padding: 5% 0 0 5%;
     margin-bottom: 5%;
     border: none;
+    resize: none;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mensaje__contacto::placeholder{
+    color: #A2A2A2;
+    font-size: 16px;
 }
 
 .Contacto__btn{
@@ -195,6 +274,14 @@ nav {
     color: white;
     background: blue;
     border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.Contacto__btn:hover{
+    transition: all 0.25s;
+    background: darkblue;
+    cursor: pointer;
 }
 /*Seccion de Contacto*/
 

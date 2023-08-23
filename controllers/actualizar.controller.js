@@ -17,13 +17,13 @@ const obtenerInformacion = async () => {
     const descripcion = document.querySelector("[data-descripcion]");
 
     try{
-        const starWars = await clientServices.detalleCliente(id);
-        if(starWars.imagen && starWars.categoria && starWars.nombre && starWars.precio && starWars.descripcion) {
-            imagen.value = starWars.imagen;
-            categoria.value = starWars.categoria;
-            nombre.value = starWars.nombre;
-            precio.value = starWars.precio;
-            descripcion.value = starWars.descripcion;
+        const producto = await clientServices.detalleCliente(id);
+        if(producto.imagen && producto.categoria && producto.nombre &&producto.precio && producto.descripcion) {
+            imagen.value = producto.imagen;
+            categoria.value = producto.categoria;
+            nombre.value = producto.nombre;
+            precio.value = producto.precio;
+            descripcion.value = producto.descripcion;
 
         } else {
             throw new Error();

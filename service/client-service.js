@@ -1,11 +1,11 @@
 const listaUsuarios = () => 
-    fetch("http://localhost:3000/usuarios").then((respuesta) => respuesta.json());
+    fetch("https://fake-api-green.vercel.app/usuarios").then((respuesta) => respuesta.json());
 
 const listaClientes = () => 
-    fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json());
+    fetch("https://fake-api-green.vercel.app/productos").then((respuesta) => respuesta.json());
 
 const crearCliente = (imagen, categoria, nombre, precio, descripcion) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("https://fake-api-green.vercel.app/productos", {
         method: "POST",
         headers:{
             "Content-Type": "application/json",
@@ -15,19 +15,19 @@ const crearCliente = (imagen, categoria, nombre, precio, descripcion) => {
 };
 
 const eliminarCliente = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://fake-api-green.vercel.app/productos${id}`, {
         method: "DELETE",
     })
 }
 
 const detalleCliente = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) =>
+    return fetch(`https://fake-api-green.vercel.app/productos${id}`).then((respuesta) =>
         respuesta.json()
     );
 };
 
 const actualizarCliente = (imagen, categoria, nombre, precio, descripcion, id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://fake-api-green.vercel.app/productos${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

@@ -15,19 +15,19 @@ const crearCliente = (imagen, categoria, nombre, precio, descripcion) => {
 };
 
 const eliminarCliente = (id) => {
-    return fetch(`https://fake-api-green.vercel.app/productos${id}`, {
+    return fetch(`https://fake-api-green.vercel.app/productos/${id}`, {
         method: "DELETE",
     })
 }
 
 const detalleCliente = (id) => {
-    return fetch(`https://fake-api-green.vercel.app/productos${id}`).then((respuesta) =>
+    return fetch(`https://fake-api-green.vercel.app/productos/${id}`).then((respuesta) =>
         respuesta.json()
     );
 };
 
 const actualizarCliente = (imagen, categoria, nombre, precio, descripcion, id) => {
-    return fetch(`https://fake-api-green.vercel.app/productos${id}`, {
+    return fetch(`https://fake-api-green.vercel.app/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

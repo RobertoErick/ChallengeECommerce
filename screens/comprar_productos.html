@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <title>e-Commerce</title>
+</head>
+<body>
+    <nav>
+        <div class="navegacion">
+            <img src="/img/Logo.png" alt="Logo Principal" class="Logo">
+            <input class="buscador" placeholder="¿Que deseas buscar?">
+            <img src="/img/Icone.png" alt="iconoBusqueda" class="IconoBusqueda">
+        </div>
+        <a href="/screens/productos.html">
+            <button class="iniciarSesion__btn">Agregar Producto</button>
+        </a>
+        <a href="/screens/carrito.html">
+            <button class="iniciarSesion__btn">carrito de compra</button>
+        </a>
+    </nav>
+    <div class="banner">
+        <img src="/img/banner.jpg" alt="Imagen de un hongo de videojuego" class="imgbanner">
+        <h2 class="Titulo__banner">Agosto Promocional</h2>
+        <h4 class="Subitulo__banner">Productos seleccionados con 33% de descuento</h4>
+        <a href="#tituloConsolas">
+            <button class="Boton__banner">Ver consolas</button>
+        </a>
+    </div>
+    <div class="container">
+        <div class="Titulo__catalogo">
+            <h2 class="starWars__titulo">Videojuegos</h2>
+            <a id="verTodo">Ver todo -></a>
+        </div>
+        <div class="Catalogo__productos" id="videojuegos">
+            <!-- Seccion para atraer los productos de la base de datos -->
+        </div>
+        <div class="Titulo__catalogo" id="tituloConsolas">
+            <h2 class="consolas__titulo">Consolas</h2>
+            <a id="verTodo2">Ver todo -></a>
+        </div>
+        <div class="Catalogo__productos2" id="consolas">
+            <!-- Seccion para atraer los productos de la base de datos -->
+        </div>
+        <div class="Titulo__catalogo">
+            <h2 class="diversos__titulo">Diversos</h2>
+            <a id="verTodo3">Ver todo -></a>
+        </div>
+        <div class="Catalogo__productos3" id="diversos">
+            <!-- Seccion para atraer los productos de la base de datos -->
+        </div>
+    </div> 
+    <div class="contacto">
+        <div class="logo__contacto">
+            <img src="/img/Logo.png" alt="Logo de la pagina contacto">
+        </div>
+        <div class="acercaDe">
+            <p>Quienes Somos</p>
+            <p>Politica de privacidad</p>
+            <p>Programade fidelidad</p>
+            <p>Nuestras tiendas</p>
+            <p>Quiero ser franquiciado</p>
+            <p>Anunciar aqui</p>
+        </div>
+        <form class="inputContacto">
+            <h3>Habla con nosotros</h3>
+            <div class="Seccion__nombre">
+                <input type="text" class="input__nombre" placeholder="Nombre" required>
+                <label for="text" class="Label__nombre">Nombre</label>
+            </div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje" class="mensaje__contacto" required></textarea>
+            <button class="Contacto__btn">Enviar mensaje</button>
+        </form>   
+    </div>
+    <div class="piePagina">
+        <p>Desarrollado por Roberto Erick</p>
+        <p>2023</p>
+    </div>
+    <script type="module" src="/controllers/carrito.js"></script>    
+</body>
+</html>

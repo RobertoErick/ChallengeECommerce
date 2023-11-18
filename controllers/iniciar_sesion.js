@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const usuarioEncontrado = usuarios.find(usuario => usuario.correo === correoValue && usuario.password === contraseñaValue);
 
             if (usuarioEncontrado) {
-                window.location.href = "../screens/productos.html";
+                window.location.href = "../screens/comprar_productos.html";
             } else {
                 alert('Credenciales incorrectas. Intente nuevamente.');
             }

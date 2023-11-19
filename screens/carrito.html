@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/navegacion.css">
     <link rel="stylesheet" href="../css/contactoYPiePagina.css">
     <link rel="stylesheet" href="../css/styleProductos.css">
@@ -19,10 +20,13 @@
     </nav>
     <div class="todosLosProductos">
         <div class="Encabezado__catalogo">
-            <h2 class="titulo">Todos los productos</h2>
-            <a href="/screens/agregarProducto.html">
-                <button class="agregar__producto" >Agregar producto</button>
-            </a>
+            <h2 class="titulo">Carrito de compras</h2>
+        </div>
+        <div class="Catalogo__productos">
+            <!-- Carga de productos de json server -->
+        </div>
+        <div class="btn-comprar">
+            <button id="comprarBtn" class="iniciarSesion__btn">Comprar</button>
         </div>
         <div class="contacto">
             <div class="logo__contacto">
@@ -50,6 +54,6 @@
             <p>Desarrollado por Roberto Erick</p>
             <p>2023</p>
         </div>
-        <script type="module" src=""></script>
+        <script type="module" src="/controllers/carrito.js"></script>
     </body>
     </html>

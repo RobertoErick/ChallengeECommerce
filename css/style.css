@@ -298,6 +298,18 @@ nav {
 }
 /*Seccion pie de pagina*/
 
+/*Seccion carrito*/
+.btn-comprar{
+    margin-left: 10%;
+}
+
+/*Seccion comprar_productos*/
+.comprar__boton{
+    border-radius: 20px;
+    background-color: rgb(206, 235, 255);
+    cursor: pointer;
+}
+
 /*Seccion responsiva*/
 @media (min-width: 767px) and (max-width:1023px){
     /*Seccion de navegacion*/

@@ -174,6 +174,13 @@
       "correo": "usuario1@example.com",
       "password": "contraseña1",
       "id": 1
+    },
+    {
+      "correo": "usuario2@example.com",
+      "password": "contraseña2",
+      "id": 2
     }
-  ]
+  ],
+  "carrito": [],
+  "compras": []
 }

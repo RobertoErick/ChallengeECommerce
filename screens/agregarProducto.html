@@ -20,9 +20,9 @@
     <form class="Seccion__agregar_productos" data-form>
         <h2>Agregar nuevo producto</h2>
         <div class="Seccion__Input">
-            <input name="url" id="url" class="input" type="text" placeholder="Nombre" required data-imagen>
+            <input name="url" id="url" class="input" type="text" placeholder="Nombre" required data-imagen pattern="https?://.+">
             <label class="input-label" for="url">URL de imagen</label>
-        </div>        
+        </div>              
         <div class="Seccion__Input">
             <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required data-categoria>
             <label class="input-label" for="categoria">Categoria</label>
@@ -32,7 +32,7 @@
             <label class="input-label" for="nombre">Nombre del producto</label>
         </div>
         <div class="Seccion__Input">
-            <input name="precio" id="precio" class="input" type="text" placeholder="precio" data-precio required>
+            <input name="precio" id="precio" class="input" type="number" placeholder="precio" data-precio required>
             <label class="input-label" for="precio">Precio del producto</label>
         </div>
         <div class="Seccion__textarea">

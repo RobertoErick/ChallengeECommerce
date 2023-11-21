@@ -181,6 +181,59 @@
       "id": 2
     }
   ],
-  "carrito": [],
-  "compras": []
+  "carrito": [
+    {
+      "imagen": "https://uvejuegos.com/img/caratulas/56710/BF1-One-B.jpg",
+      "categoria": "videojuegos",
+      "nombre": "Battlefield 4 pvtos",
+      "precio": "500.00",
+      "descripcion": "Videojuego de accion de displaros",
+      "id": 8,
+      "userId": "1",
+      "carritoItemId": "lp5lmniofw481t5dmcd"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/61-PblYntsL.jpg",
+      "categoria": "consolas",
+      "nombre": "Nintendo Switch",
+      "precio": "10,000.00",
+      "descripcion": "Consola de la gran N, Nintendo se ah enfocado en la portabilidad y gran diseño para poder jugar en cualquier lugar para después pasarlo a pantalla grande en tu sala",
+      "id": 15,
+      "userId": "2",
+      "carritoItemId": "lp5lrgz1pqku7tdjav"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51bfje7BkfL._AC_SX466_.jpg",
+      "categoria": "diversos",
+      "nombre": "Traje de spiderman",
+      "precio": "2,000.00",
+      "descripcion": "Traje del alguacil de New York, usado en el videojuego de Spiderman para PlayStation 4",
+      "id": 24,
+      "userId": "2",
+      "carritoItemId": "lp5lrkvq858i5gm7ng"
+    }
+  ],
+  "compras": [
+    {
+      "userId": "1",
+      "productos": [
+        {
+          "id": "8"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": "2",
+      "productos": [
+        {
+          "id": "15"
+        },
+        {
+          "id": "24"
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
